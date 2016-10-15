@@ -1,16 +1,4 @@
 {
-	"a0001": {
-		"type": "drug",
-		"name": "Kyle",
-		"scenario": "Hey, Joe’s cousin from Colorado is in town. I hear brownies have been added to the menu for tonight. You gonna show?",
-		"replies":
-			[
-				{ "go": "b0004", "delay": 1440, "answer": "Nah, man. My parents would kill me if I got caught.", "grade": 2, "response": "Maybe it isn't worth it.", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "Come on, do you really think pot brownies are a good call?", "grade": 1, "response": "You only get in trouble if you get caught", "wait": 5 },
-				{ "go": "b0003", "delay": 1440, "answer": "I don’t know. Maybe I’ll come and see what it’s all about.", "grade": -1, "response": "I'll take that as a yes.", "wait": 5 },
-				{ "go": "b0005", "delay": 1440, "answer": "For sure. Should we meet up at 4:20? XD", "grade": -2, "response": "Wicked, dude. See you then.", "wait": 5 }
-			]
-	},
 	"b0002": {
 		"type": "drug",
 		"name": "Kyle",
