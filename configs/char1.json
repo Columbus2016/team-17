@@ -40,13 +40,13 @@
 		"id": "b0004",
 		"type": "Social",
 		"name": "Kyle",
-		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?"
+		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?",
 		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "No, you're good, stay at home and chill", "wait": 35 },
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "Yeah man, you gotta go", "wait": 35 },
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "I mean you could go and check it out, but just don't drink or do something stupid", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "Find new friends", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "Find new friends", "wait": 35 }
 			]
 	},
 	"b0005": {
@@ -62,15 +62,15 @@
 			]
 	},
 	"c0006": {
-		"type": "drug",
+		"type": "ethics",
 		"name": "Kyle",
-		"scenario": "[Generate the tweet message]",
+		"scenario": "I just found a wallet with $200 in it. I was walking home from school and there it was, just sitting there with no one in sight. You have to help me decide what games to get?",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+				{ "go": "b0002", "delay": 1440, "type": "You really should find the wallet’s owner. Perhaps there was an ID in there. I’ll help you if you want.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Someone is going to really miss that. Perhaps you should just turn it in to our teacher.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Sweet! After you pocket the cash, you really should turn the ID and credit cards in to someone.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "$200 in cash? Nice. I bet you could also buy some cool stuff if there are any credit cards in the wallet.", "grade": 2, "response": "[Response]", "wait": 35 }
 			]
 	}
 }
