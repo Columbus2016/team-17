@@ -11,7 +11,7 @@
 				{ "go": "b0005", "delay": 1440, "answer": "For sure. Should we meet up at 4:20? XD", "grade": -2, "response": "Wicked, dude. See you then.", "wait": 5 }
 			]
 	},
-	"b0002": {
+	"I did this for the commits too": {
 		"type": "drug",
 		"name": "Kyle",
 		"scenario": "Sean got his hands on some brewskis over the weekend. Should I partake?",
