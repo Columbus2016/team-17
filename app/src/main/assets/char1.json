@@ -23,14 +23,14 @@
 				{ "go": "c0006", "delay": 1440, "answer": "Great opportunities don’t come around too often. Live it up.", "grade": -2, "response": "Righteous! You ought to come out with us.", "wait": 35 }
 			]
 	},
-	
+
         "b0003": {
 		"type": "bully",
 		"name": "Kyle",
 		"scenario": "Hey , today at lunch, Marvin and his friends kept saying that my parents won't be able to ever send me to college or make me study",
 		"replies":
 			[
-				{ "go": "b0001", "delay": 1440, "answer": "Just ignore them they're idiots", "grade": 2, "response": "Probably you're right", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "Just ignore them they're idiots", "grade": 2, "response": "Probably you're right", "wait": 5 },
 				{ "go": "b0002", "delay": 1440, "answer": "Punch them back", "grade": 1, "response": "I'm gonna get in trouble,you know Mr.Ben", "wait": 5 },
 				{ "go": "b0003", "delay": 1440, "answer": "They could be saying the truth, I mean they aren't saying stuff like that for no reason", "grade": -1, "response": "That's rude, I didn't expect you to say this", "wait": 5 },
 				{ "go": "b0004", "delay": 1440, "answer": "Yeah they're absolutely right, wish I could say that to your face", "grade": -2, "response":"You're pathetic!", "wait": 5 }
@@ -81,6 +81,9 @@
 		"scenario": "I graduated!",
 		"replies":
 			[
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 },
 				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 }
 			]
 	},
@@ -90,6 +93,9 @@
 		"scenario": "It's off to the mines with me.",
 		"replies":
 			[
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 },
 				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 }
 			]
 	},
@@ -99,6 +105,9 @@
 		"scenario": "Harvard, here I come!",
 		"replies":
 			[
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 },
 				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 }
 			]
 	}

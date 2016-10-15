@@ -120,11 +120,19 @@ public class Diary extends AppCompatActivity
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     if (position == 0) {
+                        String nullcheck = null;
+                        try {
+                            nullcheck = ((JSONObject) JSONQUESTION.getJSONArray("replies").get(0)).getString("go");
+                        } catch (JSONException e) {
+
+                        }
+                        if (nullcheck != null && nullcheck != "null") {
 //                        startActivity(new Intent(getApplicationContext(), MultipleChoice.class));
-                        FIRSTINTENT = new Intent(getApplicationContext(), MultipleChoice.class);
-                        System.out.println("replyIndex check#1: " + replyIndex);
-                        startActivityForResult(FIRSTINTENT, 1);
-                        System.out.println("replyIndex check#3: " + replyIndex);
+                            FIRSTINTENT = new Intent(getApplicationContext(), MultipleChoice.class);
+                            System.out.println("replyIndex check#1: " + replyIndex);
+                            startActivityForResult(FIRSTINTENT, 1);
+                            System.out.println("replyIndex check#3: " + replyIndex);
+                        }
                     }
                 }
             });
