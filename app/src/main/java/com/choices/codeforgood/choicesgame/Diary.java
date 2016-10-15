@@ -116,6 +116,7 @@ public class Diary extends AppCompatActivity
         al.add("diary item 11");
         al.add("diary item 12");
         al.add("diary item 13");
+        al.add("diary item 14");
 
 
         ArrayAdapter<String> aa = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
