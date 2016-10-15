@@ -33,9 +33,9 @@ public class Diary extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static String JSONTEXT = null;
+    public static JSONObject JSONQUESTION = null;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    private void onCreate2(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diary);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -58,17 +58,11 @@ public class Diary extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
 
-//        int res_id = getResources().getIdentifier("test", "json", getPackageName());
-//        InputStream is = getResources().openRawResource(res_id);
-//        File test = new File(getClassLoader().getResource("res/test.txt").getFile());
-
-//        File test = new File(getApplicationContext().getFilesDir(), "test.txt");
-//        if (test.exists()) {
-//            System.out.println("test.txt DETECTED!!!");
-//        } else {
-//            System.out.println("test.txt NOT DETECTED!!!!!!!!!!!");
-//        }
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        onCreate2(savedInstanceState);
 
         try {
             InputStream test = getApplicationContext().getAssets().open("test.txt");
@@ -91,18 +85,25 @@ public class Diary extends AppCompatActivity
             System.out.println("INPUTSTREAM NOT SUCCESSFUL, #3");
         }
 
+        JSONObject master = null;
         try {
-            String str = "{ \"name\": \"Alice\", \"age\": 20 }";
-            JSONObject obj = new JSONObject(str);
-            String n = obj.getString("name");
-            int a = obj.getInt("age");
-            System.out.println(n + " " + a);  // prints "Alice 20"
+            master = new JSONObject(JSONTEXT);
+            JSONQUESTION = master.getJSONObject("a0001");
         } catch (Exception e) {
 
         }
 
+
+
         ListView listView = (ListView) findViewById(R.id.diary_listview);
         ArrayList<String> al = new ArrayList<>();
+//        while(true){
+            try {
+                al.add(JSONQUESTION.getString("scenario"));
+            } catch (Exception e) {
+
+            }
+//        }
         al.add("diary item 1");
         al.add("diary item 2");
         al.add("diary item 3");
@@ -124,7 +125,9 @@ public class Diary extends AppCompatActivity
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                if (position == 0) {
+                    startActivity(new Intent(getApplicationContext(), MultipleChoice.class));
+                }
             }
         });
 

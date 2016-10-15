@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_bd62f7475728561d8865fd44b0bb5eac961fa5cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_38d4549d574f73adcdbbeed8a6e55686d59f252f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_470052092b61def9a66ffc52742cb09e6c0a279a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_00374188f1b3aea85e94b0b8b2b092985274bc26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_12416e190a918cc366fa84c8a595d4e1a279f383.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6c2e335b6e3c3058ee61674f2c0658e542bdabb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5aaeab36af9cf5a64ef9cc4c2360e8e1fc109d6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_969d7b40b00320a232d62064ce9481c49fd292c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7c30301eecf621b9bff6167e1135dd2df6f27ee4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7ba6821886c692c9c59fd1ef63f213124d8e044b">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\instant-run_6818563f3af85256ef52edb8e3d2de35007bd811.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_0738b373494b019f8a65a54b5c469074c9c84175.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_ce0252af2c3e0c8bf3733f58f9e577cbb563c854.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_6055e81d65f911ba623b68ba189291d0467a0b24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b688409bf253d9e748a4bb6c30158fdea4d9e2ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cfb8a358c45f495fdfd9f808344a4eb835e39ecf">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a84cc302adb0c3808c0578a5370684cabbc0ab52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_5b2346e9a97325dfb0e873767446a9bcbfc46bd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_f0183981880031d3ded175f20fb8ab73d617433a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_2c7fdd1c9726c773c314f4905abfd420e4d38cfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_78769e07f9828500140f112f0c6ba96ab72858cc.jar" />
+    </item>
+
+</items>
