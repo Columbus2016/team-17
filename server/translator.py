@@ -27,11 +27,12 @@ connection = pymysql.connect(host='localhost',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
+#now that we have the date from the client, save it to database
 try:
     with connection.cursor() as cursor:
         # Create a new record
-        sql = "INSERT INTO `users` (`id`, `good`) VALUES (%s, %s)"
-        cursor.execute(sql, ('123', '666'))
+        sql = "INSERT INTO `users` (`id`, `campain`, `question`, `startdate`, `currentdate`, `grade`) VALUES (%s, %s, %s, %s, %s, %s)"
+        cursor.execute(sql, (user, campain, questionid, startdate, currentdate, currentgrade) 
 
     # connection is not autocommit by default. So you must commit to save
     # your changes.
