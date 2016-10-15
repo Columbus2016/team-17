@@ -1,12 +1,13 @@
+#!C:\Python27\python.exe -u
+#!/usr/bin/env python
 
 import pymysql.cursors
-from flask import Flask, request
+import cgi
 
-app = Flask(__name__)
-@app.route('/', methods=['POST'])
-def result():
-    print(request.form['foo']) # should display 'bar'
-    return 'Received !' # response to your request.
+print "Content-type: text/html"
+
+form = cgi.FieldStorage()
+print form["user"]
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
