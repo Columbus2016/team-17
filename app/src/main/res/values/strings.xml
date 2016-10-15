@@ -5,4 +5,81 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="json_input">{
+	"a0001": {
+		"type": "drug",
+		"name": "Kyle",
+		"scenario": "Hey, Joe’s cousin from Colorado is in town. I hear brownies have been added to the menu for tonight. You gonna show?",
+		"replies":
+			[
+				{ "go": "b0004", "delay": 1440, "answer": "Nah, man. My parents would kill me if I got caught.", "grade": 2, "response": "Maybe it isn't worth it.", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "Come on, do you really think pot brownies are a good call?", "grade": 2, "response": "You only get in trouble if you get caught", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "I don’t know. Maybe I’ll come and see what it’s all about.", "grade": 2, "response": "I'll take that as a yes.", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "For sure. Should we meet up at 4:20? XD", "grade": 2, "response": "Wicked, dude. See you then.", "wait": 5 }
+			]
+	},
+	"b0002": {
+		"type": "drug",
+		"name": "Kyle",
+		"scenario": "Sean got his hands on some brewskis over the weekend. Should I partake?",
+		"replies":
+			[
+				{ "go": "b0002", "delay": 1440, "answer": "21 is 21. You know that.", "grade": 2, "response": "You're such a buzz kill", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "What if you get caught? You already played it pretty close with Joe’s party. ", "grade": 2, "response": "You're right. I nearly got caught too.", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "I don’t know. Just be careful things to get too out of hand.", "grade": 2, "response": "Isn't getting out of hand the point?", "wait": 5 },
+				{ "go": "b0002", "delay": 1440, "answer": "Great opportunities don’t come around too often. Live it up.", "grade": 2, "response": "Righteous! You ought to come out with us.", "wait": 35 }
+			]
+	},
+	"b0003": {
+		"type": "bully",
+		"name": "Kyle",
+		"scenario": "[Generate the tweet message]",
+		"replies":
+			[
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+			]
+	},
+	"b0004": {
+
+		"id": "b0004",
+		"type": "Social",
+		"name": "Kyle",
+		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?",
+		"replies":
+			[
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "No, you're good, stay at home and chill", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "Yeah man, you gotta go", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I mean you could go and check it out, but just don't drink or do something stupid", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "Find new friends", "wait": 35 }
+			]
+	},
+	"b0005": {
+		"type": "Grades",
+		"name": "Kyle",
+		"scenario": "I just got a D on my damn Math quiz, which I studied for so long. I feel incredibly dumb right now, I just wanna quit school, there's just no point of me staying :(",
+		"replies":
+			[
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+			]
+	},
+	"c0006": {
+		"type": "ethics",
+		"name": "Kyle",
+		"scenario": "I just found a wallet with $200 in it. I was walking home from school and there it was, just sitting there with no one in sight. You have to help me decide what games to get?",
+		"replies":
+			[
+				{ "go": "b0002", "delay": 1440, "answer": "You really should find the wallet’s owner. Perhaps there was an ID in there. I’ll help you if you want.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Someone is going to really miss that. Perhaps you should just turn it in to our teacher.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Sweet! After you pocket the cash, you really should turn the ID and credit cards in to someone.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "$200 in cash? Nice. I bet you could also buy some cool stuff if there are any credit cards in the wallet.", "grade": 2, "response": "[Response]", "wait": 35 }
+			]
+	}
+}</string>
+    <string name="title_activity_multiple_choice">MultipleChoice</string>
 </resources>

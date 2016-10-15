@@ -13,8 +13,21 @@
     tools:context="com.choices.codeforgood.choicesgame.Diary"
     tools:showIn="@layout/app_bar_diary">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:id="@+id/diary_test" />
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
