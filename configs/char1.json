@@ -30,10 +30,10 @@
 		"scenario": "Hey , today at lunch, Marvin and his friends kept saying that my parents won't be able to ever send me to college or make me study",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "answer": "Just ignore them they're idiots", "grade": 2, "response": "Probably you're right", "wait": 5 },
+				{ "go": "b0001", "delay": 1440, "answer": "Just ignore them they're idiots", "grade": 2, "response": "Probably you're right", "wait": 5 },
 				{ "go": "b0002", "delay": 1440, "answer": "Punch them back", "grade": 1, "response": "I'm gonna get in trouble,you know Mr.Ben", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "They could be saying the truth, I mean they aren't saying stuff like that for no reason", "grade": -1, "response": "That's rude, I didn't expect you to say this", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "Yeah they're absolutely right, wish I could say that to your face", "grade": -2, "response":"You're pathetic!", "wait": 5 }
+				{ "go": "b0003", "delay": 1440, "answer": "They could be saying the truth, I mean they aren't saying stuff like that for no reason", "grade": -1, "response": "That's rude, I didn't expect you to say this", "wait": 5 },
+				{ "go": "b0004", "delay": 1440, "answer": "Yeah they're absolutely right, wish I could say that to your face", "grade": -2, "response":"You're pathetic!", "wait": 5 }
 			]
        },
 
