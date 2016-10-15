@@ -40,7 +40,7 @@
 		"id": "b0004",
 		"type": "Social",
 		"name": "Kyle",
-		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?"
+		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?",
 		"replies":
 [
   { "go": "b0002", "delay": 1440,"answer":"No, you're good, stay at home and chill", "grade": 2, "response": " I didn't go,just stayed home and played games", "wait": 5 },
