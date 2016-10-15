@@ -55,10 +55,10 @@
 		"scenario": "I just got a D on my damn Math quiz, which I studied for so long. I feel incredibly dumb right now, I just wanna quit school, there's just no point of me staying :(",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+				{ "go": "b0002", "delay": 1440, "answer":"Hey its just one test, you can do better next time", "grade": 2, "response":"Maybe you're right" , "wait": 5 },
+ 				{ "go": "b0002", "delay": 1440, "answer": "Thats what happens when you eat your lunch and play candy crush in class", "grade": 1, "Hey, I don't, well maybe that one": "[Response]", "wait": 5 },
+ 				{ "go": "b0002", "delay": 1440, "answer": "That's really not a big thing, just try to pass next time", "grade": -1, "response": "Yeah well passing won't take much effort", "wait": 5 },
+ 				{ "go": "b0002", "delay": 1440, "answer": "Don't even give a damn", "grade": -2, "response":"Yeah, school is for losers!", "wait": 5 }
 			]
 	},
 	"c0006": {
