@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="7ba6821886c692c9c59fd1ef63f213124d8e044b">
+        sha1="39d6b3ce7fe8c1e7477684e761b9af1b13b7dd99">
         <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\instant-run_6818563f3af85256ef52edb8e3d2de35007bd811.jar" />
     </item>
     <item
@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="cfb8a358c45f495fdfd9f808344a4eb835e39ecf">
+        sha1="c324dd6853fb98f57f1c0be7c19c8ec642b0e097">
         <dex dex="C:\Users\Stephen\AndroidStudioProjects\ChoicesGame2\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a84cc302adb0c3808c0578a5370684cabbc0ab52.jar" />
     </item>
     <item

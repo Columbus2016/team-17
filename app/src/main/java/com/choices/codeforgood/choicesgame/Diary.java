@@ -1,5 +1,6 @@
 package com.choices.codeforgood.choicesgame;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -15,7 +16,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import java.io.BufferedInputStream;
@@ -32,8 +35,14 @@ import org.json.JSONObject;
 public class Diary extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    public static String JSONTEXT = null;
+    private static String JSONTEXT = null;
+    public static JSONObject JSONMASTER = null;
     public static JSONObject JSONQUESTION = null;
+    public static boolean RETURNREADY = false;
+
+    public static Intent FIRSTINTENT = null;
+
+    private static int replyIndex = -1;
 
     private void onCreate2(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,14 +50,14 @@ public class Diary extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -87,51 +96,94 @@ public class Diary extends AppCompatActivity
 
         JSONObject master = null;
         try {
-            master = new JSONObject(JSONTEXT);
-            JSONQUESTION = master.getJSONObject("a0001");
+            JSONMASTER = new JSONObject(JSONTEXT);
+            JSONQUESTION = JSONMASTER.getJSONObject("a0001");
         } catch (Exception e) {
 
         }
 
+        try {
 
-
-        ListView listView = (ListView) findViewById(R.id.diary_listview);
-        ArrayList<String> al = new ArrayList<>();
-//        while(true){
-            try {
-                al.add(JSONQUESTION.getString("scenario"));
-            } catch (Exception e) {
-
-            }
-//        }
-        al.add("diary item 1");
-        al.add("diary item 2");
-        al.add("diary item 3");
-        al.add("diary item 4");
-        al.add("diary item 5");
-        al.add("diary item 6");
-        al.add("diary item 7");
-        al.add("diary item 8");
-        al.add("diary item 9");
-        al.add("diary item 10");
-        al.add("diary item 11");
-        al.add("diary item 12");
-        al.add("diary item 13");
-        al.add("diary item 14");
-
-
-        ArrayAdapter<String> aa = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
-        listView.setAdapter(aa);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
-                    startActivity(new Intent(getApplicationContext(), MultipleChoice.class));
+            ListView listView = (ListView) findViewById(R.id.diary_listview);
+            ArrayList<String> al = new ArrayList<>();
+            al.add(0, "item 1");
+            al.add(0, "item 2");
+            al.add(0, JSONQUESTION.getString("scenario"));
+            System.out.println("flag 1");
+            ArrayAdapter<String> aa = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
+            listView.setAdapter(aa);
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    if (position == 0) {
+//                        startActivity(new Intent(getApplicationContext(), MultipleChoice.class));
+                        FIRSTINTENT = new Intent(getApplicationContext(), MultipleChoice.class);
+                        System.out.println("replyIndex check#1: " + replyIndex);
+                        startActivityForResult(FIRSTINTENT, 1);
+                        System.out.println("replyIndex check#3: " + replyIndex);
+                    }
                 }
-            }
-        });
+            });
+
+            System.out.println("replyIndex check#2: " + replyIndex);
+
+//            listView.setAdapter(aa);
+            System.out.println("flag 2");
+            System.out.println("sanity check: RETURNREADY value is " + RETURNREADY);
+//            while (true) {
+                if (RETURNREADY) {
+                    System.out.println("RETURNREADY triggered to be true");
+                    String response = MultipleChoice.JSONREPLY.getString("reponse");
+                    al.add(0, response);
+                    aa = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
+                    listView.setAdapter(aa);
+                    String go = MultipleChoice.JSONREPLY.getString("go");
+                    JSONQUESTION = JSONMASTER.getJSONObject(go);
+                    al.add(0, JSONQUESTION.getString("scenario"));
+                    aa = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
+                    listView.setAdapter(aa);
+                    RETURNREADY = false;
+
+                } else {
+
+                }
+//                System.out.println("while loop iteration complete");
+//            }
+        } catch (Exception e) {
+            System.out.println("CATCH FLAG");
+        }
+//
+//        Button sendbutton = (Button) findViewById(R.id.mc_sendbutton);
+//        sendbutton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                System.out.println("cross activity flag triggered");
+//            }
+//        });
+
 
     }
+
+    private void updateListView() {
+//        ListView listView = (ListView) findViewById(R.id.)
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        System.out.println("onActivityResult reached. resultCode = " + resultCode);
+        System.out.println("onActivityResult reached. requestCode = " + requestCode);
+        System.out.println("onActivityResult reached. data.getIntExtra = " + data.getIntExtra("repliesIndex", -2));
+        if (requestCode == 1) {
+            if(resultCode == Activity.RESULT_OK){
+//                String result=data.getStringExtra("result");
+                replyIndex = data.getIntExtra("repliesIndex", -2);
+                System.out.println("Activity.RESULT_OK");
+            }
+            if (resultCode == Activity.RESULT_CANCELED) {
+                System.out.println("Activity.RESULT_CANCELED");
+            }
+        }
+    }//onActivityResult
 
     @Override
     public void onBackPressed() {
