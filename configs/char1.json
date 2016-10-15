@@ -29,10 +29,10 @@
 		"scenario": "[Generate the tweet message]",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
 			]
 	},
 	"b0004": {
@@ -42,12 +42,12 @@
 		"name": "Kyle",
 		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?",
 		"replies":
-[
-  { "go": "b0002", "delay": 1440,"answer":"No, you're good, stay at home and chill", "grade": 2, "response": " I didn't go,just stayed home and played games", "wait": 5 },
-  { "go": "b0002", "delay": 1440,"answer":"Yeah man, you gotta go","grade": 2, "response":" I went and got so wasted, now I have a terrible headache" , "wait": 5 },
-  { "go": "b0002", "delay": 1440,"answer":"I mean you could go and check it out, but just don't drink or do something stupid", "grade": 2, "response":" I went but I ended up drinking a bit" , "wait": 5 },
-  { "go": "b0002", "delay": 1440,"answer":"Find new friends", "grade": 2, "response":" Yeah like you" , "wait": 5 },
-]
+			[
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "No, you're good, stay at home and chill", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "Yeah man, you gotta go", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I mean you could go and check it out, but just don't drink or do something stupid", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "Find new friends", "wait": 35 }
+			]
 	},
 	"b0005": {
 		"type": "Grades",
@@ -55,22 +55,22 @@
 		"scenario": "I just got a D on my damn Math quiz, which I studied for so long. I feel incredibly dumb right now, I just wanna quit school, there's just no point of me staying :(",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "Hey its just one test, you can do better next time", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
 			]
 	},
 	"c0006": {
-		"type": "drug",
+		"type": "ethics",
 		"name": "Kyle",
-		"scenario": "[Generate the tweet message]",
+		"scenario": "I just found a wallet with $200 in it. I was walking home from school and there it was, just sitting there with no one in sight. You have to help me decide what games to get?",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 }
+				{ "go": "b0002", "delay": 1440, "answer": "You really should find the wallet’s owner. Perhaps there was an ID in there. I’ll help you if you want.", "grade": 2, "response": "I really wanted to buy Call of Duty, but I guess you're right.", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Someone is going to really miss that. Perhaps you should just turn it in to our teacher.", "grade": 2, "response": "Are they going to miss it that badly?", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Sweet! After you pocket the cash, you really should turn the ID and credit cards in to someone.", "grade": 2, "response": "Call of Duty here I come.", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "$200 in cash? Nice. I bet you could also buy some cool stuff if there are any credit cards in the wallet.", "grade": 2, "response": "There are 3 cards here. Now my imagination is running rampant.", "wait": 35 }
 			]
 	}
 }
