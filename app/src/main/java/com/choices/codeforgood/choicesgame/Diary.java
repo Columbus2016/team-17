@@ -30,6 +30,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Diary extends AppCompatActivity
@@ -43,6 +44,8 @@ public class Diary extends AppCompatActivity
     public static Intent FIRSTINTENT = null;
 
     private static int replyIndex = -1;
+
+    private static ArrayList<String> al = null;
 
     private void onCreate2(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,10 +74,11 @@ public class Diary extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("Diary.java onCreate method reached");
         onCreate2(savedInstanceState);
 
         try {
-            InputStream test = getApplicationContext().getAssets().open("test.txt");
+            InputStream test = getApplicationContext().getAssets().open("char1.json");
             BufferedReader brtest = new BufferedReader(new InputStreamReader(test));
             StringBuilder sb = new StringBuilder();
             String line = brtest.readLine();
@@ -105,7 +109,7 @@ public class Diary extends AppCompatActivity
         try {
 
             ListView listView = (ListView) findViewById(R.id.diary_listview);
-            ArrayList<String> al = new ArrayList<>();
+            al = new ArrayList<>();
             al.add(0, "item 1");
             al.add(0, "item 2");
             al.add(0, JSONQUESTION.getString("scenario"));
@@ -164,8 +168,28 @@ public class Diary extends AppCompatActivity
 
     }
 
-    private void updateListView() {
-//        ListView listView = (ListView) findViewById(R.id.)
+    private void updateListView(int index) {
+        try {
+            // update for response for previous scenario action
+
+
+            JSONObject reply = JSONQUESTION.getJSONArray("replies").getJSONObject(index);
+            System.out.println("updateListView reply.answer: " + reply.getString("answer"));
+            al.add(0, reply.getString("response"));
+
+            // update for new scenario action
+            String goToId = reply.getString("go");
+            System.out.println("goToId = " + goToId);
+            JSONQUESTION = JSONMASTER.getJSONObject(goToId);
+            al.add(0, JSONQUESTION.getString("scenario"));
+
+            ListView listView = (ListView) findViewById(R.id.diary_listview);
+            ArrayAdapter<String> aa = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, al);
+            listView.setAdapter(aa);
+
+        } catch (JSONException e) {
+            System.out.println("catch in updateListView method");
+        }
     }
 
     @Override
@@ -178,6 +202,7 @@ public class Diary extends AppCompatActivity
 //                String result=data.getStringExtra("result");
                 replyIndex = data.getIntExtra("repliesIndex", -2);
                 System.out.println("Activity.RESULT_OK");
+                updateListView(replyIndex);
             }
             if (resultCode == Activity.RESULT_CANCELED) {
                 System.out.println("Activity.RESULT_CANCELED");
