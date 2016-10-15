@@ -7,7 +7,7 @@ import cgi
 print "Content-type: text/html"
 
 form = cgi.FieldStorage()
-print form["user"]
+print form.getvalue("user", "data")
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
