@@ -52,7 +52,7 @@
 	"b0005": {
 		"type": "Grades",
 		"name": "Kyle",
-		"scenario": "[Generate the tweet message]",
+		"scenario": "I just got a D on my damn Math quiz, which I studied for so long. I feel incredibly dumb right now, I just wanna quit school, there's just no point of me staying :(",
 		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
