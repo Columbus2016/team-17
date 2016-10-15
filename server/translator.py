@@ -3,11 +3,21 @@
 
 import pymysql.cursors
 import cgi
+from datetime import datetime
 
 print "Content-type: text/html"
 
 form = cgi.FieldStorage()
-print form.getvalue("user", "data")
+
+user = form.getvalue("user") #user id
+campain = form.getvalue("character") #which character did the user choose
+questionid = form.getvalue("question") #current question the user is on
+startdate = form.getvalue("startdate") #when the user started playing to compare to today
+
+date_object = datetime.now()
+currentdate = date_object.strftime('%d-%m-%Y') #save curent date for comparison
+
+currentgrade = form.getvalue("grade") #current grade
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
