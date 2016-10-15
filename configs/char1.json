@@ -81,6 +81,9 @@
 		"scenario": "I graduated!",
 		"replies":
 			[
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 },
 				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 }
 			]
 	},
@@ -90,6 +93,9 @@
 		"scenario": "It's off to the mines with me.",
 		"replies":
 			[
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 },
 				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 }
 			]
 	},
@@ -99,6 +105,9 @@
 		"scenario": "Harvard, here I come!",
 		"replies":
 			[
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 },
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 },
 				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 }
 			]
 	}
