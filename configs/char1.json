@@ -4,7 +4,7 @@
 		"type": "drug",
 		"name": "Kyle",
 		"scenario": "Hey, Joe’s cousin from Colorado is in town. I hear brownies have been added to the menu for tonight. You gonna show?"
-		"replies"
+		"replies":
 			[
 				{ "go": "b0004", "delay": 1440, "answer": "Nah, man. My parents would kill me if I got caught.", "grade": 2, "response": "Maybe it isn't worth it.", "wait": 5 },
 				{ "go": "b0002", "delay": 1440, "answer": "Come on, do you really think pot brownies are a good call?", "grade": 2, "response": "You only get in trouble if you get caught", "wait": 5 },
@@ -17,7 +17,7 @@
 		"type": "drug",
 		"name": "Kyle",
 		"scenario": "Sean got his hands on some brewskis over the weekend. Should I partake?"
-		"replies"
+		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "answer": "21 is 21. You know that.", "grade": 2, "response": "You're such a buzz kill", "wait": 5 },
 				{ "go": "b0002", "delay": 1440, "answer": "What if you get caught? You already played it pretty close with Joe’s party. ", "grade": 2, "response": "You're right. I nearly got caught too.", "wait": 5 },
@@ -30,7 +30,7 @@
 		"type": "bully",
 		"name": "Kyle",
 		"scenario": "[Generate the tweet message]"
-		"replies"
+		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
@@ -43,7 +43,7 @@
 		"type": "Social",
 		"name": "Kyle",
 		"scenario": "[Generate the tweet message]"
-		"replies"
+		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
@@ -56,7 +56,7 @@
 		"type": "Grades",
 		"name": "Kyle",
 		"scenario": "[Generate the tweet message]"
-		"replies"
+		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
@@ -69,7 +69,7 @@
 		"type": "drug",
 		"name": "Kyle",
 		"scenario": "[Generate the tweet message]"
-		"replies"
+		"replies":
 			[
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
