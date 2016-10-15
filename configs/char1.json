@@ -7,8 +7,8 @@
 			[
 				{ "go": "b0004", "delay": 1440, "answer": "Nah, man. My parents would kill me if I got caught.", "grade": 2, "response": "Maybe it isn't worth it.", "wait": 5 },
 				{ "go": "b0002", "delay": 1440, "answer": "Come on, do you really think pot brownies are a good call?", "grade": 1, "response": "You only get in trouble if you get caught", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "I don’t know. Maybe I’ll come and see what it’s all about.", "grade": -1, "response": "I'll take that as a yes.", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "For sure. Should we meet up at 4:20? XD", "grade": -2, "response": "Wicked, dude. See you then.", "wait": 5 }
+				{ "go": "b0003", "delay": 1440, "answer": "I don’t know. Maybe I’ll come and see what it’s all about.", "grade": -1, "response": "I'll take that as a yes.", "wait": 5 },
+				{ "go": "b0005", "delay": 1440, "answer": "For sure. Should we meet up at 4:20? XD", "grade": -2, "response": "Wicked, dude. See you then.", "wait": 5 }
 			]
 	},
 	"b0002": {
@@ -17,10 +17,10 @@
 		"scenario": "Sean got his hands on some brewskis over the weekend. Should I partake?",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "answer": "21 is 21. You know that.", "grade": 2, "response": "You're such a buzz kill", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "What if you get caught? You already played it pretty close with Joe’s party. ", "grade": 1, "response": "You're right. I nearly got caught too.", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "I don’t know. Just be careful things to get too out of hand.", "grade": -1, "response": "Isn't getting out of hand the point?", "wait": 5 },
-				{ "go": "b0002", "delay": 1440, "answer": "Great opportunities don’t come around too often. Live it up.", "grade": -2, "response": "Righteous! You ought to come out with us.", "wait": 35 }
+				{ "go": "c0006", "delay": 1440, "answer": "21 is 21. You know that.", "grade": 2, "response": "You're such a buzz kill", "wait": 5 },
+				{ "go": "b0003", "delay": 1440, "answer": "What if you get caught? You already played it pretty close with Joe’s party. ", "grade": 1, "response": "You're right. I nearly got caught too.", "wait": 5 },
+				{ "go": "b0003", "delay": 1440, "answer": "I don’t know. Just be careful things to get too out of hand.", "grade": -1, "response": "Isn't getting out of hand the point?", "wait": 5 },
+				{ "go": "c0006", "delay": 1440, "answer": "Great opportunities don’t come around too often. Live it up.", "grade": -2, "response": "Righteous! You ought to come out with us.", "wait": 35 }
 			]
 	},
 	"b0003": {
@@ -43,10 +43,10 @@
 		"scenario": "Hey Kev and his squad are throwing THE most amazing party with lots of beer, and lots of fun. I feel like a loser because I bail out all the time, but they're really insisting this time. Should I just lie to mom and sneak out tonight?",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440,"answer":"No, you're good, stay at home and chill", "grade": 2, "response": " I didn't go,just stayed home and played games", "wait": 5 },	
+				{ "go": "c0006", "delay": 1440,"answer":"No, you're good, stay at home and chill", "grade": 2, "response": " I didn't go,just stayed home and played games", "wait": 5 },	
 				{ "go": "b0002", "delay": 1440,"answer":"Yeah man, you gotta go","grade": -2, "response":" I went and got so wasted, now I have a terrible headache" , "wait": 5 },
 				{ "go": "b0002", "delay": 1440,"answer":"I mean you could go and check it out, but just don't drink or do something stupid", "grade": -1, "response":" I went but I ended up drinking a bit" , "wait": 5 },
-				{ "go": "b0002", "delay": 1440,"answer":"Find new friends", "grade": 1, "response":" Yeah like you" , "wait": 5 },
+				{ "go": "c0006", "delay": 1440,"answer":"Find new friends", "grade": 1, "response":" Yeah like you" , "wait": 5 }
 ]
 	},
 	"b0005": {
@@ -67,10 +67,37 @@
 		"scenario": "I just found a wallet with $200 in it. I was walking home from school and there it was, just sitting there with no one in sight. You have to help me decide what games to get?",
 		"replies":
 			[
-				{ "go": "b0002", "delay": 1440, "answer": "You really should find the wallet’s owner. Perhaps there was an ID in there. I’ll help you if you want.", "grade": 2, "response": "I really wanted to buy Call of Duty, but I guess you're right.", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "answer": "Someone is going to really miss that. Perhaps you should just turn it in to our teacher.", "grade": 1, "response": "Are they going to miss it that badly?", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "answer": "Sweet! After you pocket the cash, you really should turn the ID and credit cards in to someone.", "grade": -1, "response": "Call of Duty here I come.", "wait": 35 },
-				{ "go": "b0002", "delay": 1440, "answer": "$200 in cash? Nice. I bet you could also buy some cool stuff if there are any credit cards in the wallet.", "grade": -2, "response": "There are 3 cards here. Now my imagination is running rampant.", "wait": 35 }
+				{ "go": "d0009", "delay": 1440, "answer": "You really should find the wallet’s owner. Perhaps there was an ID in there. I’ll help you if you want.", "grade": 2, "response": "I really wanted to buy Call of Duty, but I guess you're right.", "wait": 35 },
+				{ "go": "d0007", "delay": 1440, "answer": "Someone is going to really miss that. Perhaps you should just turn it in to our teacher.", "grade": 1, "response": "Are they going to miss it that badly?", "wait": 35 },
+				{ "go": "d0007", "delay": 1440, "answer": "Sweet! After you pocket the cash, you really should turn the ID and credit cards in to someone.", "grade": -1, "response": "Call of Duty here I come.", "wait": 35 },
+				{ "go": "d0008", "delay": 1440, "answer": "$200 in cash? Nice. I bet you could also buy some cool stuff if there are any credit cards in the wallet.", "grade": -2, "response": "There are 3 cards here. Now my imagination is running rampant.", "wait": 35 }
+			]
+	},
+	"d0007": {
+		"type": "graduation",
+		"name": "Kyle",
+		"scenario": "I graduated!",
+		"replies":
+			[
+				{ "go": "null", "delay": 1440, "answer": "Congrates. What's next?", "grade": 2, "response": "Well, I guess college seems like a logical next step.", "wait": 1 }
+			]
+	},
+	"d0008": {
+		"type": "graduation",
+		"name": "Kyle",
+		"scenario": "It's off to the mines with me.",
+		"replies":
+			[
+				{ "go": "null", "delay": 1440, "answer": "Yes", "grade": 2, "response": "I'll write when I can. Assuming the stall boss gives me any time off.", "wait": 1 }
+			]
+	},
+	"d0009": {
+		"type": "graduation",
+		"name": "Kyle",
+		"scenario": "Harvard, here I come!",
+		"replies":
+			[
+				{ "go": "null", "delay": 1440, "answer": "What! Harvard? Your hard work has really paid off.", "grade": 2, "response": "Thanks. I'm looking forward to what the future holds.", "wait": 1 }
 			]
 	}
 }
