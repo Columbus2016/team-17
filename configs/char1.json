@@ -3,96 +3,78 @@
 		"id": "a0001",
 		"type": "drug",
 		"name": "Kyle",
-		"Scenario":
-			{
-				"input": "[Generate the tweet message]"
-			},
-		"Replies":
+		"scenario": "Hey, Joe’s cousin from Colorado is in town. I hear brownies have been added to the menu for tonight. You gonna show?"
+		"replies"
 			[
-				{ "id": "1001", "type": "Yes", "value": "2" },
-				{ "id": "1002", "type": "Maybe yes", "value": "1" },
-				{ "id": "1003", "type": "Maybe no", "value": "-1" },
-				{ "id": "1004", "type": "No", "value": "-2" },
+				{ "go": "b0002", "delay": 1440, "answer": "Nah, man. My parents would kill me if I got caught.", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "answer": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 			]
 	},
 	{
 		"id": "b0002",
 		"type": "drug",
 		"name": "Kyle",
-		"Scenario":
-			{
-				"input": "[Generate the tweet message]"
-			},
-		"Replies":
+		"scenario": "[Generate the tweet message]"
+		"replies"
 			[
-				{ "id": "2001", "type": "Yes", "value": "2" },
-				{ "id": "2002", "type": "Maybe yes", "value": "1" },
-				{ "id": "2003", "type": "Maybe no", "value": "-1" },
-				{ "id": "2004", "type": "No", "value": "-2" },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 			]
 	},
 	{
 		"id": "b0003",
 		"type": "bully",
 		"name": "Kyle",
-		"Scenario":
-			{
-				"input": "[Generate the tweet message]"
-			},
-		"Replies":
+		"scenario": "[Generate the tweet message]"
+		"replies"
 			[
-				{ "id": "3001", "type": "Yes", "value": "2" },
-				{ "id": "3002", "type": "Maybe yes", "value": "1" },
-				{ "id": "3003", "type": "Maybe no", "value": "-1" },
-				{ "id": "3004", "type": "No", "value": "-2" },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 			]
 	},
 	{
 		"id": "b0004",
 		"type": "Social",
 		"name": "Kyle",
-		"Scenario":
-			{
-				"input": "[Generate the tweet message]"
-			},
-		"Replies":
+		"scenario": "[Generate the tweet message]"
+		"replies"
 			[
-				{ "id": "4001", "type": "Yes", "value": "2" },
-				{ "id": "4002", "type": "Maybe yes", "value": "1" },
-				{ "id": "4003", "type": "Maybe no", "value": "-1" },
-				{ "id": "4004", "type": "No", "value": "-2" },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 			]
 	},
 	{
 		"id": "b0005",
 		"type": "Grades",
 		"name": "Kyle",
-		"Scenario":
-			{
-				"input": "[Generate the tweet message]"
-			},
-		"Replies":
+		"scenario": "[Generate the tweet message]"
+		"replies"
 			[
-				{ "id": "4001", "type": "Yes", "value": "2" },
-				{ "id": "4002", "type": "Maybe yes", "value": "1" },
-				{ "id": "4003", "type": "Maybe no", "value": "-1" },
-				{ "id": "4004", "type": "No", "value": "-2" },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 			]
 	},
 	{
 		"id": "c0006",
 		"type": "drug",
 		"name": "Kyle",
-		"Scenario":
-			{
-				"input": "[Generate the tweet message]"
-			},
-		"Replies":
+		"scenario": "[Generate the tweet message]"
+		"replies"
 			[
-				{ "id": "1001", "type": "Yes", "value": "2" },
-				{ "id": "1002", "type": "Maybe yes", "value": "1" },
-				{ "id": "1003", "type": "Maybe no", "value": "-1" },
-				{ "id": "1004", "type": "No", "value": "-2" },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
+				{ "go": "b0002", "delay": 1440, "type": "Yes", "grade": 2, "response": "[Response]", "wait": 35 },
 			]
 	}
 ]
